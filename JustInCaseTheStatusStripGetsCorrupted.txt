@@ -1,0 +1,47 @@
+
+'  The declarations in the designer.vb file.
+
+
+Me.tsbStatusLabelLeft = New System.Windows.Forms.ToolStripStatusLabel
+Me.tsbStatusLabelRight = New System.Windows.Forms.ToolStripStatusLabel
+Me.tsbUnlock = New System.Windows.Forms.ToolStripSplitButton
+
+
+
+Me.ToolStripDateTimeStatusLabel1 = New signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel
+       
+
+
+
+
+
+'''''  This is correct and works!
+
+'
+        'StatusStrip
+        '
+        Me.StatusStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbStatusLabelLeft, Me.ToolStripDateTimeStatusLabel1, Me.tsbStatusLabelRight, Me.tsbUnlock})
+        Me.StatusStrip.Location = New System.Drawing.Point(0, 544)
+        Me.StatusStrip.Name = "StatusStrip"
+        Me.StatusStrip.Size = New System.Drawing.Size(792, 22)
+        Me.StatusStrip.TabIndex = 7
+        Me.StatusStrip.Text = "StatusStrip"
+
+
+
+
+
+
+
+''''  This is what the corruption changes it to!
+
+
+ '
+        'StatusStrip
+        '
+        Me.StatusStrip.Dock = System.Windows.Forms.DockStyle.None
+        Me.StatusStrip.Location = New System.Drawing.Point(149, 233)
+        Me.StatusStrip.Name = "StatusStrip"
+        Me.StatusStrip.Size = New System.Drawing.Size(202, 22)
+        Me.StatusStrip.TabIndex = 7
+        Me.StatusStrip.Text = "StatusStrip"

@@ -1,0 +1,254 @@
+H:\Projects\signINver2\signINver2\obj\Release\ResolveAssemblyReference.cache
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.Resources.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.signINMain1.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.GenerateResource.Cache
+C:\Visual Studio 2008\Projects\signINver2\signINver2\bin\Release\signINver2.exe
+C:\Visual Studio 2008\Projects\signINver2\signINver2\bin\Release\signINver2.pdb
+C:\Visual Studio 2008\Projects\signINver2\signINver2\bin\Release\signINver2.xml
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob.resources
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.mhsJobList.resources
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.mhsJobListViewAll.resources
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.Resources.resources
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.signINMain1.resources
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.GenerateResource.Cache
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.exe
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.xml
+C:\Visual Studio 2008\Projects\signINver2\signINver2\obj\Release\signINver2.pdb
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.config
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.manifest
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.application
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.pdb
+H:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.xml
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAboutBox1.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.Form1.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAddShipperItems.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmExtrudedTOF.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFinalizeShipper.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetTOF.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmItems.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobLog.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewShipper.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodTOF.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmShipperList.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.LoginForm.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmMhsJobListViewAll.resources
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.TrustInfo.xml
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe.manifest
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.application
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.xml
+H:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.pdb
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmGlobalTakeOff.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterNewStation.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.globalTakeOff.resources
+H:\Projects\signINver2\signINver2\bin\Release\QSS.Components.Windows.Forms.dll
+H:\Projects\signINver2\signINver2\bin\Release\QSS.Components.Windows.Forms.pdb
+H:\Projects\signINver2\signINver2\bin\Release\QSS.Components.Windows.Forms.xml
+H:\Projects\signINver2\signINver2\bin\Release\Interop.AcroPDFLib.dll
+H:\Projects\signINver2\signINver2\bin\Release\AxInterop.AcroPDFLib.dll
+H:\Projects\signINver2\signINver2\obj\Release\Interop.AcroPDFLib.dll
+H:\Projects\signINver2\signINver2\obj\Release\AxInterop.AcroPDFLib.dll
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.ResolveComReference.cache
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmDailyProductions.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSignCodeDetailsEntry.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmSub_EnterNewStation.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewPDF.resources
+H:\Projects\signINver2\signINver2\obj\Release\signINver2.MyDataRepeaterRow.resources
+H:\Projects\signINver2\signINver2\bin\Release\EnvDTE.dll
+H:\Projects\signINver2\signINver2\bin\Release\EnvDTE.xml
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.config
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.manifest
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.application
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.pdb
+G:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.xml
+G:\Projects\signINver2\signINver2\bin\Release\EnvDTE.dll
+G:\Projects\signINver2\signINver2\bin\Release\EnvDTE.xml
+G:\Projects\signINver2\signINver2\bin\Release\Interop.AcroPDFLib.dll
+G:\Projects\signINver2\signINver2\bin\Release\AxInterop.AcroPDFLib.dll
+G:\Projects\signINver2\signINver2\obj\Release\ResolveAssemblyReference.cache
+G:\Projects\signINver2\signINver2\obj\Release\Interop.AcroPDFLib.dll
+G:\Projects\signINver2\signINver2\obj\Release\AxInterop.AcroPDFLib.dll
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.ResolveComReference.cache
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmCustomerListing.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmDailyProductions.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewCust.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmUserChangePW.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetSign.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmGlobalTakeOff.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAboutBox1.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.Form1.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAddShipperItems.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterNewStation.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmExtrudedTOF.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFinalizeShipper.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetTOF.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmItems.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobLog.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewShipper.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSignCodeDetailsEntry.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodSheetingSizes.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodTOF.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmShipperList.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmSub_EnterNewStation.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewPDF.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.globalTakeOff.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.LoginForm.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmMhsJobListViewAll.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.Resources.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.MyDataRepeaterRow.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.signINMain1.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.GenerateResource.Cache
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.TrustInfo.xml
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe.manifest
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.application
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.xml
+G:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.pdb
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEXTSign.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvNewSheeting.resources
+G:\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvSheetingListing.resources
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.config
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.manifest
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.application
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.pdb
+F:\Projects\signINver2\signINver2\bin\Release\signIN 2.0.xml
+F:\Projects\signINver2\signINver2\bin\Release\EnvDTE.dll
+F:\Projects\signINver2\signINver2\bin\Release\EnvDTE.xml
+F:\Projects\signINver2\signINver2\bin\Release\Interop.AcroPDFLib.dll
+F:\Projects\signINver2\signINver2\bin\Release\AxInterop.AcroPDFLib.dll
+F:\Projects\signINver2\signINver2\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\signINver2\signINver2\obj\Release\Interop.AcroPDFLib.dll
+F:\Projects\signINver2\signINver2\obj\Release\AxInterop.AcroPDFLib.dll
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.ResolveComReference.cache
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmCustomerListing.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmDailyProductions.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterDailyProduction.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEXTSign.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmHome.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvNewSheeting.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvSheetingListing.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobStatus.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob_Station.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewCust.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSalvageSign.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmSalvageInventory.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmSheetingUsage.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmStationStatus.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmTOFtoStatus.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmUserChangePW.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetSign.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmGlobalTakeOff.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAboutBox1.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.Form1.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmAddShipperItems.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterNewStation.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmExtrudedTOF.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFinalizeShipper.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetTOF.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmItems.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobLog.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewShipper.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSignCodeDetailsEntry.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodSheetingSizes.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodTOF.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmShipperList.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmSub_EnterNewStation.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmUsersList.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewEXTSign.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewPDF.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewSign.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.globalTakeOff.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.LoginForm.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.frmMhsJobListViewAll.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.Resources.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.MyDataRepeaterRow.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.signINMain1.resources
+F:\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.GenerateResource.Cache
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.TrustInfo.xml
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe.manifest
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.application
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.xml
+F:\Projects\signINver2\signINver2\obj\Release\signIN 2.0.pdb
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.config
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe.manifest
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.application
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.exe
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.pdb
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\signIN 2.0.xml
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\EnvDTE.dll
+C:\Apps\VS 2008\Projects\signINver2\signINver2\bin\Release\EnvDTE.xml
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\ResolveAssemblyReference.cache
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.dlgAddCert.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmATMdbTesting.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmCap.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmCertReceive.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmCertRequest.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmCustomerListing.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmDailyProductions.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmDGV_SignCheck.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterDailyProduction.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterMHSdp.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmExtrudedRun.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmEXTSign.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmGenericDGV.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmGuardRailStations.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmHome.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvNewSheeting.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmInvSheetingListing.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobStatus.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob_Station.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmLogoTakeOff.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewCust.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSalvageSign.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmSalvageInventory.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmSettings.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmSheetingUsage.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmSignCheck.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmStationStatus.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmTOFtoStatus.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmTypeVTOF.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmUserChangePW.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetSign.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmGlobalTakeOff.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmAboutBox1.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.Form1.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmAddShipperItems.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmEnterNewStation.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmExtrudedTOF.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmFinalizeShipper.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmFlatSheetTOF.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmItems.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmJob.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmJobLog.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewShipper.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmNewSignCodeDetailsEntry.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodSheetingSizes.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmPlywoodTOF.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmShipperList.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmSub_EnterNewStation.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmUsersList.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewEXTSign.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewPDF.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmViewSign.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmVisiSelect.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.globalTakeOff.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.LoginForm.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.frmMhsJobListViewAll.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.Resources.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.MyDataRepeaterRow.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.signINMain1.resources
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signINver2.vbproj.GenerateResource.Cache
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.TrustInfo.xml
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe.manifest
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.application
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.exe
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.xml
+C:\Apps\VS 2008\Projects\signINver2\signINver2\obj\Release\signIN 2.0.pdb

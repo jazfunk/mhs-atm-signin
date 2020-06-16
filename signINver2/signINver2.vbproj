@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1686020-B0B9-483E-A6B9-24144BBC3E3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>signINver2.My.MyApplication</StartupObject>
+    <RootNamespace>signINver2</RootNamespace>
+    <AssemblyName>signIN 2.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>1FA90824B0DA30B18243E94FFCEFC15F60D68692</ManifestCertificateThumbprint>
+    <ManifestKeyFile>signINver2_7_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>Resources\signinmain_4.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>ftp://03294ad.netsolhost.com/www/sIv2/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://03294ad.netsolhost.com/sIv2/</InstallUrl>
+    <SupportUrl>http://actionentry.actiontraffic.net</SupportUrl>
+    <ProductName>SignIN 2.2</ProductName>
+    <PublisherName>HighwayAction Systems</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>151</ApplicationRevision>
+    <ApplicationVersion>2.0.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>signIN 2.0.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>signIN 2.0.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="QSS.Components, Version=1.0.1.26518, Culture=neutral, PublicKeyToken=0007ca67f3bbfe82, processorArchitecture=MSIL" />
+    <Reference Include="QSS.Components.Data, Version=1.0.1.26519, Culture=neutral, PublicKeyToken=be938c28b62d496a, processorArchitecture=MSIL" />
+    <Reference Include="QSS.Components.Windows.Forms, Version=2.0.5.874, Culture=neutral, PublicKeyToken=ff4b97c5154224ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Quantum Software Solutions\Windows Forms Components\bin\QSS.Components.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="clsUtilities.vb" />
+    <Compile Include="Code128_CharacterSetB.vb" />
+    <Compile Include="dlgAddCert.Designer.vb">
+      <DependentUpon>dlgAddCert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAddCert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutBox1.designer.vb">
+      <DependentUpon>frmAboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmATMdbTesting.Designer.vb">
+      <DependentUpon>frmATMdbTesting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmATMdbTesting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCap.Designer.vb">
+      <DependentUpon>frmCap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertReceive.Designer.vb">
+      <DependentUpon>frmCertReceive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertReceive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertRequest.Designer.vb">
+      <DependentUpon>frmCertRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerListing.Designer.vb">
+      <DependentUpon>frmCustomerListing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerListing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDailyProductions.Designer.vb">
+      <DependentUpon>frmDailyProductions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDailyProductions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDGV_SignCheck.Designer.vb">
+      <DependentUpon>frmDGV_SignCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDGV_SignCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnterDailyProduction.Designer.vb">
+      <DependentUpon>frmEnterDailyProduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnterDailyProduction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnterMHSdp.Designer.vb">
+      <DependentUpon>frmEnterMHSdp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnterMHSdp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExtrudedRun.Designer.vb">
+      <DependentUpon>frmExtrudedRun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExtrudedRun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXTSign.Designer.vb">
+      <DependentUpon>frmEXTSign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXTSign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenericDGV.Designer.vb">
+      <DependentUpon>frmGenericDGV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenericDGV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGuardRailStations.Designer.vb">
+      <DependentUpon>frmGuardRailStations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGuardRailStations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.vb">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvNewSheeting.Designer.vb">
+      <DependentUpon>frmInvNewSheeting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvNewSheeting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvSheetingListing.Designer.vb">
+      <DependentUpon>frmInvSheetingListing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvSheetingListing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJobStatus.Designer.vb">
+      <DependentUpon>frmJobStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJobStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJob_Station.Designer.vb">
+      <DependentUpon>frmJob_Station.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob_Station.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogoTakeOff.Designer.vb">
+      <DependentUpon>frmLogoTakeOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogoTakeOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewCust.Designer.vb">
+      <DependentUpon>frmNewCust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewCust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewSalvageSign.Designer.vb">
+      <DependentUpon>frmNewSalvageSign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewSalvageSign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalvageInventory.Designer.vb">
+      <DependentUpon>frmSalvageInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalvageInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSheetingUsage.Designer.vb">
+      <DependentUpon>frmSheetingUsage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSheetingUsage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignCheck.Designer.vb">
+      <DependentUpon>frmSignCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSignCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStationStatus.Designer.vb">
+      <DependentUpon>frmStationStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStationStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTOFtoStatus.Designer.vb">
+      <DependentUpon>frmTOFtoStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTOFtoStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTypeVTOF.Designer.vb">
+      <DependentUpon>frmTypeVTOF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTypeVTOF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserChangePW.Designer.vb">
+      <DependentUpon>frmUserChangePW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserChangePW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlatSheetSign.Designer.vb">
+      <DependentUpon>frmFlatSheetSign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFlatSheetSign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGlobalTakeOff.Designer.vb">
+      <DependentUpon>frmGlobalTakeOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGlobalTakeOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddShipperItems.designer.vb">
+      <DependentUpon>frmAddShipperItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddShipperItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnterNewStation.Designer.vb">
+      <DependentUpon>frmEnterNewStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnterNewStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExtrudedTOF.Designer.vb">
+      <DependentUpon>frmExtrudedTOF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExtrudedTOF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalizeShipper.designer.vb">
+      <DependentUpon>frmFinalizeShipper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalizeShipper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlatSheetTOF.Designer.vb">
+      <DependentUpon>frmFlatSheetTOF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFlatSheetTOF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItems.designer.vb">
+      <DependentUpon>frmItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJob.Designer.vb">
+      <DependentUpon>frmJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJobLog.designer.vb">
+      <DependentUpon>frmJobLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJobLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewShipper.designer.vb">
+      <DependentUpon>frmNewShipper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewShipper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewSignCodeDetailsEntry.Designer.vb">
+      <DependentUpon>frmNewSignCodeDetailsEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewSignCodeDetailsEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlywoodSheetingSizes.Designer.vb">
+      <DependentUpon>frmPlywoodSheetingSizes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlywoodSheetingSizes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlywoodTOF.Designer.vb">
+      <DependentUpon>frmPlywoodTOF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlywoodTOF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShipperList.designer.vb">
+      <DependentUpon>frmShipperList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShipperList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSub_EnterNewStation.Designer.vb">
+      <DependentUpon>frmSub_EnterNewStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSub_EnterNewStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsersList.Designer.vb">
+      <DependentUpon>frmUsersList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsersList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEXTSign.Designer.vb">
+      <DependentUpon>frmViewEXTSign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEXTSign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPDF.Designer.vb">
+      <DependentUpon>frmViewPDF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPDF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSign.Designer.vb">
+      <DependentUpon>frmViewSign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisiSelect.Designer.vb">
+      <DependentUpon>frmVisiSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisiSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalTakeOff.designer.vb">
+      <DependentUpon>globalTakeOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="globalTakeOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMhsJobListViewAll.designer.vb">
+      <DependentUpon>frmMhsJobListViewAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMhsJobListViewAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyDataRepeaterRow.Designer.vb">
+      <DependentUpon>MyDataRepeaterRow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyDataRepeaterRow.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="signINMain1.Designer.vb">
+      <DependentUpon>signINMain1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="signINMain1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolStripDateTimeStatusLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualStudiosTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VSTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgAddCert.resx">
+      <DependentUpon>dlgAddCert.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmATMdbTesting.resx">
+      <DependentUpon>frmATMdbTesting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCap.resx">
+      <DependentUpon>frmCap.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertReceive.resx">
+      <DependentUpon>frmCertReceive.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertRequest.resx">
+      <DependentUpon>frmCertRequest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerListing.resx">
+      <DependentUpon>frmCustomerListing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDailyProductions.resx">
+      <DependentUpon>frmDailyProductions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDGV_SignCheck.resx">
+      <DependentUpon>frmDGV_SignCheck.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnterDailyProduction.resx">
+      <DependentUpon>frmEnterDailyProduction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnterMHSdp.resx">
+      <DependentUpon>frmEnterMHSdp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExtrudedRun.resx">
+      <DependentUpon>frmExtrudedRun.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXTSign.resx">
+      <DependentUpon>frmEXTSign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenericDGV.resx">
+      <DependentUpon>frmGenericDGV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGuardRailStations.resx">
+      <DependentUpon>frmGuardRailStations.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvNewSheeting.resx">
+      <DependentUpon>frmInvNewSheeting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvSheetingListing.resx">
+      <DependentUpon>frmInvSheetingListing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJobStatus.resx">
+      <DependentUpon>frmJobStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJob_Station.resx">
+      <DependentUpon>frmJob_Station.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogoTakeOff.resx">
+      <DependentUpon>frmLogoTakeOff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewCust.resx">
+      <DependentUpon>frmNewCust.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewSalvageSign.resx">
+      <DependentUpon>frmNewSalvageSign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalvageInventory.resx">
+      <DependentUpon>frmSalvageInventory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSheetingUsage.resx">
+      <DependentUpon>frmSheetingUsage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignCheck.resx">
+      <DependentUpon>frmSignCheck.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStationStatus.resx">
+      <DependentUpon>frmStationStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTOFtoStatus.resx">
+      <DependentUpon>frmTOFtoStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTypeVTOF.resx">
+      <DependentUpon>frmTypeVTOF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserChangePW.resx">
+      <DependentUpon>frmUserChangePW.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlatSheetSign.resx">
+      <DependentUpon>frmFlatSheetSign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGlobalTakeOff.resx">
+      <DependentUpon>frmGlobalTakeOff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutBox1.resx">
+      <DependentUpon>frmAboutBox1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddShipperItems.resx">
+      <DependentUpon>frmAddShipperItems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnterNewStation.resx">
+      <DependentUpon>frmEnterNewStation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExtrudedTOF.resx">
+      <DependentUpon>frmExtrudedTOF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalizeShipper.resx">
+      <DependentUpon>frmFinalizeShipper.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlatSheetTOF.resx">
+      <DependentUpon>frmFlatSheetTOF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItems.resx">
+      <DependentUpon>frmItems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJob.resx">
+      <DependentUpon>frmJob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJobLog.resx">
+      <DependentUpon>frmJobLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewShipper.resx">
+      <DependentUpon>frmNewShipper.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewSignCodeDetailsEntry.resx">
+      <DependentUpon>frmNewSignCodeDetailsEntry.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlywoodSheetingSizes.resx">
+      <DependentUpon>frmPlywoodSheetingSizes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlywoodTOF.resx">
+      <DependentUpon>frmPlywoodTOF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShipperList.resx">
+      <DependentUpon>frmShipperList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSub_EnterNewStation.resx">
+      <DependentUpon>frmSub_EnterNewStation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsersList.resx">
+      <DependentUpon>frmUsersList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEXTSign.resx">
+      <DependentUpon>frmViewEXTSign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPDF.resx">
+      <DependentUpon>frmViewPDF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSign.resx">
+      <DependentUpon>frmViewSign.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisiSelect.resx">
+      <DependentUpon>frmVisiSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="globalTakeOff.resx">
+      <DependentUpon>globalTakeOff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMhsJobListViewAll.resx">
+      <DependentUpon>frmMhsJobListViewAll.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyDataRepeaterRow.resx">
+      <DependentUpon>MyDataRepeaterRow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signINMain1.resx">
+      <DependentUpon>signINMain1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgForm2.png" />
+    <None Include="signINver2_6_TemporaryKey.pfx" />
+    <None Include="signINver2_7_TemporaryKey.pfx" />
+    <None Include="signINver2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globalTakeOff3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globalTakeOff4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globalTakeOff5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend2_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend3_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legend4_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_extruded_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_extruded_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_extruded_1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_extruded_1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_flatsheet_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_flatsheet_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_flatsheet_1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_flatsheet_1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_plywood_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_plywood_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_plywood_1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_plywood_1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shipper2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shipper2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shipper.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signCode1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signCode1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signCode2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signCode2_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signINMain_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signINMain_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signInMain_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signinmain_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signINMain_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signInMain_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signINMain_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signINMain_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signInSplashScreen_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewJob1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewJob2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewJob2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewJob2_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database2_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database2_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database2_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database3_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editConsole1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editConsole1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editConsole1_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editConsole1_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGmenu6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\bg18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveAll_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kingMoFo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\none.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showHide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pushPin24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dataTable16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextPayItem16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightningBolt16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atmToolStripBG_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atmToolStripBG_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atmMenuBarBG_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atmMenuBarBG_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDailyProductions.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgForm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdfICON_test.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redWings24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimsHouse24.png" />
+    <None Include="Resources\PDF_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customers_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3MLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\michaelPeakeCrane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mmm_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DesktopPNG_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewJobPNG_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePNG_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalvageItemsICON.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalvageItemsPNG_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecurityPNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRecordPNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATMmainPNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sIv2SplashScreen_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActionIconNewPNG24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bike_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spartans_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\Lion24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sIv22_Splash_EXP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sI_Splash_EXP.png" />
+    <None Include="signINver2_1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TigersD.png" />
+    <None Include="signINver2_2_TemporaryKey.pfx" />
+    <None Include="signINver2_3_TemporaryKey.pfx" />
+    <None Include="signINver2_4_TemporaryKey.pfx" />
+    <None Include="signINver2_5_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpartanHelmet_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mhsLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MontrealCanadiesn_24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

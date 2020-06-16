@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="userID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="userName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="loginDO" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="userSL" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="conStrLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\db1.mdb</Value>
+    </Setting>
+    <Setting Name="conStrRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=c:\sIv2\db1.mdb</Value>
+    </Setting>
+    <Setting Name="atmConStrLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\Action\Action Traffic.mdb</Value>
+    </Setting>
+    <Setting Name="atmConStrRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=c:\sIv2\Action Traffic.mdb</Value>
+    </Setting>
+    <Setting Name="mhsConStrLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\Michigan Highway\MHS Database.mdb</Value>
+    </Setting>
+    <Setting Name="mhsConStrRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=c:\sIv2\MHS Database.mdb</Value>
+    </Setting>
+    <Setting Name="secConStrLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=j0hns0n; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\secured.mdb;Persist Security Info=False</Value>
+    </Setting>
+    <Setting Name="secConStrRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=j0hns0n; Data Source=c:\sIv2\secured.mdb;Persist Security Info=False</Value>
+    </Setting>
+    <Setting Name="salvageImagePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\attermserv01\company data\MHS Pre Production\signImages\Salvage\</Value>
+    </Setting>
+    <Setting Name="serverPresent" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ATMconn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SignINconn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MHSconn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SECconn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="INVconn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="inventoryConStrLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\materialsInventory.mdb</Value>
+    </Setting>
+    <Setting Name="inventoryConStrRemote" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data Source=c:\sIv2\materialsInventory.mdb</Value>
+    </Setting>
+    <Setting Name="maxExtWidth" Type="System.Double" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

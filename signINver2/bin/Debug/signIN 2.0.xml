@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+signIN2.0
+</name>
+</assembly>
+<members>
+<member name="M:signINver2.frmDGV_SignCheck.#ctor(System.Data.DataView,System.String)">
+	<summary>
+ Send a DataView and a String to populate
+ </summary>
+	<param name="dv">Any DataView</param>
+	<param name="lt">List Type:  Jobs, Stations, Codes, Techs,etc.</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.clsUtilities.InitializeMySettings">
+	<summary>
+ Determine/Set Default My.Settings
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.clsUtilities.VisualSheetingColor(System.String)">
+	<summary>
+ Displays a visual representation of the current
+ Color Selected based on 3M Sheeting Codes
+ </summary>
+	<param name="sheetingCode">3M Sheeting Code eg: 3930, 3937, 3990, etc.</param>
+	<returns>A Color Object (Structure)</returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.clsUtilities.NotNull``1(``0,``0)">
+	<summary>
+ This method was developed to solve the TypeCasting issues, using only Generics, when dealing
+ with DBNull, Nothing, String.Empty, "".  
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="Value">The Object to be checked and expected to be of T</param>
+	<param name="DefaultValue">If Object fails TypeCasting, force the use of this value.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.clsUtilities.ShowDecimalRound(System.Decimal,System.Int32)">
+	<summary>
+ Rounds the given decimal to the given digits
+ </summary>
+	<param name="Argument">Decimal to be rounded</param>
+	<param name="Digits">Number of decimal places to round to</param>
+	<returns>A Decimal rounded to nearest given digits</returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.clsUtilities.ReadDataSyncToDataSet(System.String)">
+	<summary>
+ Reads an XML file and returns a DataSet base on the XML Schema
+ </summary>
+	<param name="DataSyncToClean">Path to XML file</param>
+	<returns>DataSet representing data from XML file</returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.Form1.IsValidEmail(System.String)">
+	<summary>
+ method for determining is the user provided a valid email address
+ We use regular expressions in this check, as it is a more thorough
+ way of checking the address provided
+ </summary>
+	<param name="email">email address to validate</param>
+	<returns>true is valid, false if not valid</returns>
+</member><member name="M:signINver2.frmGlobalTakeOff.getAtmTOF">
+	<summary>
+ Load all items from [Daily Production]
+ </summary>
+	<remarks>Filtered by job #</remarks>
+</member><member name="M:signINver2.frmGlobalTakeOff.getAtmSiteList">
+	<summary>
+ Load all site's (station #'s) 
+ </summary>
+	<remarks>Grouped by [site]</remarks>
+</member><member name="M:signINver2.frmGlobalTakeOff.UpdateLocationNotes(System.Int32,System.String)">
+	<summary>
+ Updates ATM Location ("Plan Issue Notes")
+ </summary>
+	<param name="siteID">"AutoNum" field from ATM Db</param>
+	<param name="siteNotes">Notes to be added</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmGlobalTakeOff.migrateExtrudedSign(System.String)">
+	<summary>
+	</summary>
+	<param name="sT"></param>
+	<remarks></remarks>
+</member><member name="P:signINver2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.ActionIconNewPNG24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.addNewJob1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.addNewJob2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.addNewJob2_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.addNewJob21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.addNewJobPNG_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.admin24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.atmConnStr01">
+	<summary>
+  Looks up a localized string similar to Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\Action\Action Traffic.mdb.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.ATMmainPNG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.atmMenuBarBG_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.atmMenuBarBG_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.atmToolStripBG_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.atmToolStripBG_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.bg17">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.bgForm1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.bgForm2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.bgForm3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Bike_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.clock_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.connStr01">
+	<summary>
+  Looks up a localized string similar to Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\db1.mdb.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.connStrMHS01">
+	<summary>
+  Looks up a localized string similar to Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\Michigan Highway\MHS Database.mdb.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Customers_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database2_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database2_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database2_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Database3_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.dataTable16x16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.DeleteRecordPNG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.DesktopPNG_128">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.editConsole1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.editConsole1_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.editConsole1_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.editConsole1_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.global2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.globalTakeOff3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.globalTakeOff4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.globalTakeOff5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.HomePNG_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.imgPath">
+	<summary>
+  Looks up a localized string similar to c:\sIv2\signImages\.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.info_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.info1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.ingo_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.inventoryConnStr01">
+	<summary>
+  Looks up a localized string similar to Provider=Microsoft.Jet.OLEDB.4.0; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\materialsInventory.mdb.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.jimsHouse24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Jobs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Jobs_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.jobsDirectory">
+	<summary>
+  Looks up a localized string similar to c:\sIv2\Jobs\.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.key_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.key_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.kingMoFo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.legend1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.legend11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.legend2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.lightningBolt16x16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Lion24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.menuStripBG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.mhsLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.michaelPeakeCrane">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.mmm_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.MMMLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.MontrealCanadiesn_24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_extruded_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_extruded_1_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_extruded_1_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_extruded_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_flatsheet_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_flatsheet_1_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_flatsheet_1_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_flatsheet_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_plywood_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_plywood_1_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_plywood_1_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.new_plywood_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.nextPayItem16x16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.none1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.PDF">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.PDF_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.PDF_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.PDF_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.pushPin24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.redWings24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.reset_16x16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.SalvageItemsICON">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.SalvageItemsPNG_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.save_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.saveAll_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.search_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.search_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.securedConnStr">
+	<summary>
+  Looks up a localized string similar to Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=j0hns0n; Data Source=\\attermserv01\company data\MHS Pre Production\signIN\secured.mdb;Persist Security Info=False.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.SecurityPNG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.serverImgPath">
+	<summary>
+  Looks up a localized string similar to \\attermserv01\company data\MHS Pre Production\signImages\.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.shipper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.shipper2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.shipper21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.showHide">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.sI_Splash_EXP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signCode1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signCode1_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signCode2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signCode2_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signINMain_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signINMain_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signInMain_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signinmain_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signINMain_41">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signInMain_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signINMain_51">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signINMain_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.signInSplashScreen_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.sIv22_Splash_EXP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.sIv2SplashScreen_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.SpartanHelmet_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.Spartans_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.TigersD">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:signINver2.My.Resources.Resources.toolStripBG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:signINver2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:signINver2.frmCustomerListing.IsValidEmail(System.String)">
+	<summary>
+ method for determining if the user provided a valid email address
+ We use regular expressions in this check, as it is a more thorough
+ way of checking the address provided
+ </summary>
+	<param name="email">email address to validate</param>
+	<returns>true is valid, false if not valid</returns>
+</member><member name="M:signINver2.frmStationStatus.GetRowsByFilter">
+	<summary>
+ Sample code:  DataTable.Select Method
+ Modified to represent sIv2 Objects
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.UpdateSS">
+	<summary>
+ EndEdit for the BindingSource and Update the DataSource
+ using the DataAdapter
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.FillSSDT(System.String)">
+	<summary>
+ Fill the main Station Status DataSet/DataTable
+ </summary>
+	<param name="jn">MHS Job Number</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.BindSSFields">
+	<summary>
+ Bind Station Status Fields
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.BindDTControls(System.Data.DataView)">
+	<summary>
+ Bind ssTBL controls
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.LoadEXT(System.Int32)">
+	<summary>
+ These methods utilitize the Reader Object and do not
+ provide Methods to write back to the DataSource.
+ </summary>
+	<param name="siteID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.LoadTOFbyJob(System.String)">
+	<summary>
+ Get just ID and signType
+ </summary>
+	<param name="job">Job Number</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.DisplayRowCount">
+	<summary>
+ Get Row count of DataGridView2 (Combined TOF)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.IterateDTtoFillDGV">
+	<summary>
+ Combines TakeOff Data from each Sign Type Table
+ into one DataTable
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.MakeDataTable">
+	<summary>
+ Manually create DataTable
+ Rethink this...
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.FillssTBL(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32,System.String)">
+	<summary>
+ Inserts row into Manually created DataTable
+ </summary>
+	<param name="xID"></param>
+	<param name="xSta"></param>
+	<param name="xType"></param>
+	<param name="xCode"></param>
+	<param name="xDet"></param>
+	<param name="xSize"></param>
+	<param name="xSel"></param>
+	<param name="xTOF"></param>
+	<param name="xssID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.GetSignType(System.String)">
+	<summary>
+ Returns sign type and also sets
+ TakeOff table name member
+ </summary>
+	<param name="t"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.GetTOFData(System.Int32,System.Int32)">
+	<summary>
+ Currently not used.  Will use when this form
+ allows the user to select a specific type and
+ work with only that type.
+ </summary>
+	<param name="sType"></param>
+	<param name="sID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.LoadMHSJobs">
+	<summary>
+ Loads all (*) fields from Jobs Table
+ Sets ComboBox.DataSource
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.OpenSheetingList(System.Object,System.EventArgs)">
+	<summary>
+ Open Sheeting Select Form, returns sheeting info (ID)
+ to apply to station status table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.GetSheetDescription(System.String,System.String)">
+	<summary>
+ This is seemingly stupid
+ </summary>
+	<param name="code"></param>
+	<param name="BGorLegend"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.VisualSheetingColor(System.Object,System.EventArgs)">
+	<summary>
+ Display sheeting color
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.LoadSignTech">
+	<summary>
+ Load Sign Technicians
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.FillSlotNumbers(System.Int32)">
+	<summary>
+ Fill Rack slot #'s based on each racks capacity
+ Not used anymore - 04.13.2018 - jk
+ </summary>
+	<param name="rN"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ViewTakeOff(System.String)">
+	<summary>
+ This method is not used or called anyhwere currently - 04.12.2018 -jk
+ </summary>
+	<param name="TableName"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.FilterSSTable(System.Int32)">
+	<summary>
+ Select Specific record from combined DataTable
+ currently using 'dv2' DataView Object to send without a filter
+ while retaining the old code... which I'm still trying to 
+ figure out what the hell I was doing in this form-11.1.12
+ This method is not currently called anywhere - jk 9.5.15
+ </summary>
+	<param name="sID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ShowPosition">
+	<summary>
+ Displays Current(n) record of Total(nth) records
+ No longer used 04.14.2018 - jk
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ApplyUpdate(System.Int32)">
+	<summary>
+ Apply Updated info to selected rows
+ </summary>
+	<param name="i">ID</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ColorCodeDGV">
+	<summary>
+ Iterate through DataGridView2 and change text/backcolor to match Sheeting
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ClearFieldsAfterUpdate">
+	<summary>
+ Clear appropriate edit fields after updating Database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.SyncTOFwDP">
+	<summary>
+ Find matching sign in "ssBS" and move the
+ BindingSource Position to matching record
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.AddToUpdatedRecords(System.String,System.Int32,System.DateTime)">
+	<summary>
+ Add stations updated to current session list
+ This list does not persist from session to session
+ Once this form is closed, the list is cleared
+ </summary>
+	<param name="site">Station Number</param>
+	<param name="ID">Site ID</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.SortLike(System.String)">
+	<summary>
+ Filter Combined DataTable
+ This code is causing errors... somewhere
+ When the Rowfilter returns 0 records
+ the DataGridView throws an IndexOutOfRangeException
+ These controls are currently disabled
+ 04.29.2018 -jk
+ </summary>
+	<param name="searchSTR"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ClearSheetingSelection(System.String)">
+	<summary>
+ Clear Controls and Class-Level Variable selected values
+ </summary>
+	<param name="BGorLegend">"BG", "Legend"; These are the only accepted values</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ToggleEnabledFields">
+	<summary>
+ Enable or disable buttons in SplitContainer1.Panel1
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.picLogo_MHS_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ Open Combine-Migrate form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.ssBS_PositionChanged(System.Object,System.EventArgs)">
+	<summary>
+ Not currently used.  All code is commented out. -jk 2018-12-1
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.DataGridView2_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+	<summary>
+ Used to count number of checked records in real time.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.lblRackBIND_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ Migrate data to the fields that are used for editing
+ 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.txtCriteria_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ Filter DataTable as text is entered
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.btnClearLegendLot_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clear Selected Sheeting.  This method does not delete sheeting ID
+ for already saved data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.btnLoad_Click(System.Object,System.EventArgs)">
+	<summary>
+ Reload Job Data to avoid having to close and reopen form to obtain updated data.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.AutoCheckRow">
+	<summary>
+ Check current datagridview row
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmStationStatus.btnReLoadTOF_Click(System.Object,System.EventArgs)">
+	<summary>
+ Reload TakeOff and StationStatus data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.GetRowsByFilter">
+	<summary>
+ Sample code:  DataTable.Select Method
+ Modified to represent sIv2 Objects
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.LoadEXT(System.Int32)">
+	<summary>
+ These methods utilitize the Reader Object and do not
+ provide Methods to write back to the DataSource.
+ </summary>
+	<param name="siteID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.LoadTOFbyJob(System.String)">
+	<summary>
+ Get just ID and signType
+ </summary>
+	<param name="job">Job Number</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.DisplayRowCount">
+	<summary>
+ Updates Row Count based on current filter
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.SetDGVds">
+	<summary>
+ Set DataSource of DataGridView2
+ Note Used - jk 9.6.15
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.IterateDTtoFillDGV">
+	<summary>
+ Combines TakeOff Data from each Sign Type Table
+ into one DataTable
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.MakeDataTable">
+	<summary>
+ Manually create DataTable
+ Rethink this...
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.FillssTBL(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Inserts row into Manually created DataTable
+ </summary>
+	<param name="xID"></param>
+	<param name="xSta"></param>
+	<param name="xType"></param>
+	<param name="xCode"></param>
+	<param name="xDet"></param>
+	<param name="xSize"></param>
+	<param name="xSel"></param>
+	<param name="xTOF"></param>
+	<param name="xssID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.GetSignType(System.String)">
+	<summary>
+ Returns sign type and also sets
+ TakeOff table name member
+ </summary>
+	<param name="t"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.GetTOFData(System.Int32,System.Int32)">
+	<summary>
+ Currently not used.  Will use when this form
+ allows the user to select a specific type and
+ work with only that type.
+ </summary>
+	<param name="sType"></param>
+	<param name="sID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.LoadMHSJobs">
+	<summary>
+ Loads all (*) fields from Jobs Table
+ Sets ComboBox.DataSource
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.UpdateSS">
+	<summary>
+ EndEdit for the BindingSource and Update the DataSource
+ using the DataAdapter
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.FillSSDT(System.String)">
+	<summary>
+ Fill the main Station Status DataSet/DataTable
+ </summary>
+	<param name="jn"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.BindSSFields">
+	<summary>
+ Bind Station Status Fields
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.BindDTControls">
+	<summary>
+ Bind ssTbl Controls
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.LoadSignTech">
+	<summary>
+ Load Sign Technicians
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.ApplyUpdate(System.Int32)">
+	<summary>
+ Update StationStatus DataGridView
+ </summary>
+	<param name="i"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.SortLike(System.String)">
+	<summary>
+ To filter on Sign Code only.  Used to isolate sign codes.
+ </summary>
+	<param name="searchSTR"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.InitializeInstallDate">
+	<summary>
+ This Method initializes the ExtendedDateTimePicker's value to
+ the one Day previous to Today's Date, unless it's Monday, then it
+ selects the Previous Friday's Date.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.DataGridView1_AND_2_DataSourceChanged(System.Object,System.EventArgs)">
+	<summary>
+ Update Row Counts
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.DataGridView2_SelectionChanged(System.Object,System.EventArgs)">
+	<summary>
+ Synchronizes the TakeOff table with the StationStatus table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmEnterMHSdp.DataGridView1_SelectionChanged(System.Object,System.EventArgs)">
+	<summary>
+ Synchronizes the StationStatus table with the TakeOff table
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.LoadMHSJobs">
+	<summary>
+ Loads all (*) fields from Jobs Table
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.LoadEXT(System.Int32)">
+	<summary>
+ These methods utilitize the Reader Object and do not
+ provide Methods to write back to the DataSource.
+ </summary>
+	<param name="siteID"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.LoadSignTech">
+	<summary>
+ Load Sign Technicians
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.BindDetails">
+	<summary>
+ Bind properties to the appropriate TextBoxes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.LoadTxtFiles">
+	<summary>
+ Set default values in Text Files
+ to avoid numerous and lengthy
+ database calls
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.FillSSDT(System.String)">
+	<summary>
+ Fill the main Station Status DataSet/DataTable
+ </summary>
+	<param name="jn">MHS Job Number</param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmSignCheck.btnControlButtons_Click(System.Object,System.EventArgs)">
+	<summary>
+ One Method to handle each "Control" button
+ Modify as needed, as new "Control" buttons are added
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmTOFtoStatus.GetSignType(System.String)">
+	<summary>
+ Returns sign type and also sets
+ TakeOff table name member
+ </summary>
+	<param name="t"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmTOFtoStatus.FillSSDT(System.String)">
+	<summary>
+ Load up currenty records from tblStationStatus
+ I've created all the ADO.Net objectso to add/update/delete
+ Only need to read to check for duplicates at this point
+ 7/13/16
+ </summary>
+	<param name="jn">MHS Job Number</param>
+	<remarks></remarks>
+</member><member name="F:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.DEFAULT_CUSTOM_FORMAT">
+	<summary>
+ The default value for the CustomFormat property.
+ </summary>
+</member><member name="F:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.DEFAULT_FORMAT">
+	<summary>
+ The default value for the Format property.
+ </summary>
+</member><member name="F:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel._customFormat">
+	<summary>
+ The custom format string used to format the date and/or time in the control.
+ </summary>
+</member><member name="F:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel._format">
+	<summary>
+ Determines whether dates and times are displayed using standard or custom formatting.
+ </summary>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.CustomFormat">
+	<summary>
+ Gets or sets the custom date/time format string.
+ </summary>
+	<value>
+ A string that represents the custom date/time format. The default is a null reference (<b>Nothing</b> in Visual Basic).
+ </value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.Format">
+	<summary>
+ Gets or sets the format of the date and time displayed in the control.
+ </summary>
+	<value>
+ One of the <see cref="T:System.Windows.Forms.DateTimePickerFormat"/> values. The default is <see cref="T:System.Windows.Forms.DateTimePickerFormat">Time</see>.
+ </value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.ActiveLinkColor">
+	<summary>
+ Gets the color used to display an active link.
+ </summary>
+	<value></value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.IsLink">
+	<summary>
+ Gets a value indicating whether the ToolStripLabel is a hyperlink.
+ </summary>
+	<value>
+ Always returns <b>false</b>.
+ </value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.LinkBehavior">
+	<summary>
+ Gets a value that represents the behavior of a link
+ </summary>
+	<value>
+ Always returns <see cref="F:System.Windows.Forms.LinkBehavior.SystemDefault"/>.
+ </value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.LinkColor">
+	<summary>
+ Gets the color used to display an active link.
+ </summary>
+	<value>
+ Always returns <see cref="F:System.Drawing.Color.Empty"/>.
+ </value>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.Text">
+	<summary>
+ Overridden.  Gets the text that is to be displayed on the item.
+ </summary>
+</member><member name="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.VisitedLinkColor">
+	<summary>
+ Gets the color used when displaying a link that that has been previously visited.
+ </summary>
+	<value>
+ Always returns <see cref="F:System.Drawing.Color.Empty"/>.
+ </value>
+</member><member name="M:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.#ctor">
+	<summary>
+ Initializes a new instance of the <b>ToolStripDateTimeStatusLabel</b> class.
+ </summary>
+	<remarks>
+ This constructor sets the initial <see cref="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.Format"/> property value to <see cref="T:System.Windows.Forms.DateTimePickerFormat">Time</see>.
+ </remarks>
+</member><member name="E:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.FormatChanged">
+	<summary>
+ Occurs when the <see cref="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.Format"/> property value has changed or else the <b>Format</b> property value is
+ <see cref="T:System.Windows.Forms.DateTimePickerFormat">Custom</see> and the <see cref="P:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.CustomFormat"/> property value has changed.
+ </summary>
+</member><member name="M:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.GetFormattedDateAndTime">
+	<summary>
+ Gets a string representing the current date and/or time formatted in
+ accordance with the current Format and CustomFormat property values.
+ </summary>
+	<returns>
+ A formatted string representing the current date and/or time.
+ </returns>
+</member><member name="M:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.OnFormatChanged(System.EventArgs)">
+	<summary>
+ Raises the <see cref="E:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.FormatChanged"/> event.
+ </summary>
+	<param name="e">
+ An <seealso cref="T:System.EventArgs"/> that contains the event data.
+ </param>
+</member><member name="M:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.OnParentChanged(System.Windows.Forms.ToolStrip,System.Windows.Forms.ToolStrip)">
+	<param name="oldParent">
+ The original parent of the item.
+ </param>
+	<param name="newParent">
+ The new parent of the item.
+ </param>
+</member><member name="M:signINver2.Wunnell.Windows.Forms.ToolStripDateTimeStatusLabel.UpdateText">
+	<summary>
+ Displays a formatted string representing the current date and/or time.
+ </summary>
+</member><member name="M:signINver2.frmNewCust.IsValidEmail(System.String)">
+	<summary>
+ method for determining if the user provided a valid email address
+ We use regular expressions in this check, as it is a more thorough
+ way of checking the address provided
+ </summary>
+	<param name="email">email address to validate</param>
+	<returns>true is valid, false if not valid</returns>
+</member><member name="M:signINver2.frmCertReceive.SumTypeValues(System.Int32,System.Data.DataTable)">
+	<summary>
+ Sums value of itemQty (tblFScertItems.itemQty) by given itemID (tblItems.ID)
+ </summary>
+	<param name="x">itemID</param>
+	<param name="dt">joinBS - Datatable</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmCertReceive.LoopAndSum">
+	<summary>
+ Loop through flatsheet items and sum each type
+ </summary>
+	<remarks></remarks>
+</member><member name="M:signINver2.frmCertReceive.SyncCertItems(System.Int32,System.Double,System.String)">
+	<summary>
+ Upon selecting an item from a specific certification received
+ Select the corresponding item in the Items List DataGridView by
+ iterating/looping each row and selecting the row matching the ID
+ </summary>
+	<param name="i">ID</param>
+	<param name="q">itemQty</param>
+	<param name="d">itemDetails</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
