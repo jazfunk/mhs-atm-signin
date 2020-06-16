@@ -16,7 +16,7 @@ This program serves the needs of its users at every step, from the "Take-Off" pr
 
 Through the years of development, implementation, and use, the tasks handled by this program helped eliminate about 80% of the handwritten, manually tracked logistics.  We were able to reallocate human resources to areas of greater need.
 
-Taking advantage of "Click-Once Deployment" technology, instalation as easy as sending a user a link to download the executable.  Each time the application opens, it will check online for any available updates, then prompt the user to download, updating automatically.
+Taking advantage of "Click-Once Deployment" technology, installation is as easy as sending a user a link to download the executable.  Each time the application opens, it will check online for any available updates, then prompt the user to download, updating automatically.
 
 Writing every line of code, form and database design, case-use logistics, installation and deployment, was handled solely by me.  Although my preference would be to work on a team, it was quite the learning experience to build it independently.  Sometimes learning things the hard way, led to greater clarity, and better problem solving skills.
 
