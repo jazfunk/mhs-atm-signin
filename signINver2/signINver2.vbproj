@@ -751,6 +751,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\bgForm2.png" />
     <None Include="signINver2_6_TemporaryKey.pfx" />
     <None Include="signINver2_7_TemporaryKey.pfx" />
