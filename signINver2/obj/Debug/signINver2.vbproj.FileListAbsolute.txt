@@ -425,4 +425,3 @@ C:\Apps\VS 2010\signINver2\signINver2\obj\Debug\signINver2.vbproj.GenerateResour
 C:\Apps\VS 2010\signINver2\signINver2\obj\Debug\signIN 2.0.TrustInfo.xml
 C:\Apps\VS 2010\signINver2\signINver2\obj\Debug\signIN 2.0.exe.manifest
 C:\Apps\VS 2010\signINver2\signINver2\obj\Debug\signIN 2.0.application
-C:\Apps\VS 2010\signINver2\signINver2\obj\Debug\signINver2.vbprojResolveAssemblyReference.cache
